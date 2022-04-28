@@ -1,8 +1,18 @@
-# include < avr / io .h >
-# include < stdint .h >
-int16_t main ()
+#include <studio.h>
+
+int main()
 {
-while (1)
-;
-return 0;
+	int a = 5;
+	int b = 4;
+	int c;
+	
+	if (a > b)
+		c = a -b;
+	else 
+		c = b - a;
+	
+	printf("Result: %d\n", c);
+	
+	return 0;
 }
+	
